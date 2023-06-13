@@ -62,7 +62,7 @@ const content = (styles) => (
 
 const SectionOne = () => {
   return (
-    <div className="relative flex flex-col bg-primary text-white px-5 pb-20 space-y-8 pt-44 md:px-10 xl:flex-row xl:space-y-0 ">
+    <div className=" relative flex flex-col bg-primary text-white px-5 pb-20 space-y-8 pt-44 md:px-10 xl:flex-row xl:space-y-0 ">
       <div className="absolute h-full w-2/3 bottom-0 blur-8xl right-0 xl:top-0">
         <Image
           src="images/blur.svg"
@@ -83,7 +83,7 @@ const SectionOne = () => {
         <h2 className="text-3xl font-semibold md:text-6xl">
           Improve your social media engagements
         </h2>
-        <h3 className="text-secondary2 text-lg font-light md:text-xl">
+        <h3 className="text-lg font-light md:text-xl">
           Welcome to Links, you would be able to monitor and track all your
           social media accounts and progress. You could also block unsolicited
           messages from different individuals. Is that what you would like?
@@ -101,13 +101,20 @@ const SectionOne = () => {
 
         <div className="flex space-x-1">
           {Array(5).fill(
-            <Image  src="images/icon/star.svg" alt="star icon" loading="eager" priority height={16} width={16} className="h-auto w-auto"
+            <Image
+              src="images/icon/star.svg"
+              alt="star icon"
+              loading="eager"
+              priority
+              height={16}
+              width={16}
+              className="h-auto w-auto"
             />
           )}
         </div>
 
         <div className="space-y-5">
-          <div className="font-semibold text-xl text-secondary">
+          <div className="font-semibold text-xl">
             Best online platform ever!
           </div>
 
@@ -116,7 +123,14 @@ const SectionOne = () => {
             monitor my social media effectively
           </p>
           <div className="flex items-center space-x-2">
-            <Image src="images/icon/profile.svg" alt="profile icon" loading="eager" priority height={26} width={26} className="h-auto w-auto"
+            <Image
+              src="images/icon/profile.svg"
+              alt="profile icon"
+              loading="eager"
+              priority
+              height={26}
+              width={26}
+              className="h-auto w-auto"
             />
             <div className="font-semibold text-sm">Amobi Victor Chukwuka</div>
           </div>

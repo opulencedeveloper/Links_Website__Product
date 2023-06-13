@@ -36,7 +36,7 @@ const MainNavigation = () => {
   };
 
   return (
-    <nav className="w-full flex items-center bg-primary justify-between pt-7 px-5 md:px-10">
+    <nav className="w-full flex items-center bg-primary justify-between pt-7  px-5 md:px-10">
       {/* <Portal>
         <div
           className={`fixed inset-y-0 -left-64 z-50 shadow-lg lg:hidden transform  ${

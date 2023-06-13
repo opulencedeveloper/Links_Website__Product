@@ -20,7 +20,9 @@ module.exports = {
         primaryshade: "#59C1BD",
         primaryshade1: "#59C1BD",
         primaryshade2: "#F0F9F9",
-        secondary: "#737373", 
+        secondary: "#737373",
+        secondary2: "#FD8C01", 
+        secondary3: "#D4D4D8"
         // secondaryshade: "#EBEBEB",
         // secondaryshade1: "#FAFAFA",
         // secondaryshade2: "#FDFDFD"
