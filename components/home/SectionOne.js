@@ -1,12 +1,6 @@
 //import handleWhatsAppClick from "@/helpers/whatsapp";
 import Image from "next/image";
 
-const sectionContents = [
-  "Adequate security",
-  "Lower energy cost",
-  "Smaller carbon footprints",
-];
-
 const content = (styles) => (
   <div className={`${styles} relative`}>
     <div className="bg-white h-max rounded-md relative flex">
