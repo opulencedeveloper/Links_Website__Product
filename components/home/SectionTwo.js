@@ -18,11 +18,11 @@ const sectionTwoContent = [
 
 const SectionTwo = () => {
   return (
-    <div className="mb-40 mt-24 mx-5 space-y-4 flex flex-col items-center">
-      <h4 className="text-2xl font-semibold text-center md:text-3xl">
+    <div data-aos="fade-up" className="mb-40 mt-24 mx-5 flex flex-col items-center">
+      <h4 className="text-2xl font-semibold text-center pb-2 md:pb-4 md:text-3xl">
         Remove <span className="text-primary">Toxic</span> Contents
       </h4>
-      <p className="text-base text-secondary text-start mb-2 md:text-xl md:text-center md:text-lg">
+      <p className="text-base text-secondary text-start pb-8 md:pb-4 md:text-xl md:text-center md:text-lg">
         Learn how to use links effectively to safeguard your contents
       </p>
       <div className="flex flex-col bg-white px-5 py-5 max-w-6xl border space-y-5 md:flex-row md:space-y-0  md:px-7 md:py-14">

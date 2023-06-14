@@ -22,10 +22,8 @@ module.exports = {
         primaryshade2: "#F0F9F9",
         secondary: "#737373",
         secondary2: "#FD8C01", 
-        secondary3: "#D4D4D8"
-        // secondaryshade: "#EBEBEB",
-        // secondaryshade1: "#FAFAFA",
-        // secondaryshade2: "#FDFDFD"
+        secondary3: "#D4D4D8", 
+        secondaryshade4: "#FDFDFD"
       },
       blur: {
         '8xl': '200px', 

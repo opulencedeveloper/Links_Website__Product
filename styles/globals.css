@@ -23,7 +23,7 @@ body {
   width: 24px;
   height: 3px;
   top: 0;
-  left: 0;
+  right: 0;
   background: #9c9aa6;
   transform: rotate(0);
   transition: all 0.5s;
@@ -31,6 +31,7 @@ body {
 
 .hamburger-middle {
   transform: translateY(7px);
+  width: 14px;
 }
 
 .hamburger-bottom {

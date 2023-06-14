@@ -24,22 +24,22 @@ const sectionThreeContents = [
 ];
 const SectionThree = () => {
   return (
-    <div className="flex px-5 justify-center mb-40">
+    <div data-aos="fade-up" className="flex px-5 justify-center mb-40">
       <div className="max-w-6xl">
-        <div className="font- text-center text-4xl mb-5">Why choose us?</div>
-        <p className="text-xl text-secondary mb-20 leading-normal">
+        <div className="font-semibold text-center text-3xl md:text-start md:text-4xl mb-5">Why choose us?</div>
+        <p className="text-lg text-secondary mb-10 leading-normal md:text-xl md:mb-20">
           We have grown to be a legit platform the everyone uses
         </p>
-        <div className="flex flex-col space-x-0 items-center xl:flex-row xl:space-x-44">
-          <div className="flex flex-col justify-center">
-            <div className="flex flex-wrap justify-between max-w-sm">
+        <div className="flex flex-col items-center space-x-0 xl:items-start xl:flex-row xl:space-x-44">
+          <div className="flex flex-col justify-between">
+            <div className="flex justify-center flex-wrap max-w-sm md:justify-between">
               {sectionThreeContents.map((content, index) => (
-                <div className="max-w-[11rem] mb-14 space-y-3 text-center ">
-                  <div className="text-secondary2 font-semibold text-4xl">
+                <div key={index} className="max-w-full mb-9 space-y-3 text-center md:mb-14 md:max-w-[11rem]">
+                  <div className="text-secondary2 font-semibold text-2xl md:text-4xl">
                     {content.title}
                   </div>
-                  <div className="">{content.subtitle}</div>
-                  <p className="text-secondary text-sm font-light px-3 md:text-base">
+                  <div className="font-semibold">{content.subtitle}</div>
+                  <p className="text-secondary font-light px-3">
                     {content.description}
                   </p>
                 </div>

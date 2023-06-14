@@ -8,14 +8,14 @@ const inputValues = [
 
 const SectionFour = () => {
   return (
-    <div className="relative flex flex-col space-y-9 items-center rounded-xl bg-primary py-12 mx-5 md:mx-10 md:py-20 mb-40">
-      <div className="text-2xl font-semibold text-white text-center md:text-4xl">
+    <div data-aos="fade-up" className="relative flex flex-col space-y-9 items-center rounded-xl bg-primary py-14 mx-5 mb-16 md:mx-10 md:py-20 ">
+      <div className="text-xl font-semibold text-white text-center md:text-4xl">
         Subscribe to our newsletter
       </div>
-      <div className="flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-2 md:space-y-0">
+      <div className="flex flex-col px-8 w-full space-x-0 space-y-2 md:w-max md:flex-row md:space-x-2 md:space-y-0">
         {inputValues.map((content, index) => {
           return index === 2 ? (
-            <button className="bg-white text-center rounded-md h-12 text-black px-10 text-semibold">
+            <button className="bg-white text-center rounded-md h-14 text-black px-10 text-semibold">
               {content.title}
             </button>
           ) : (
@@ -23,7 +23,7 @@ const SectionFour = () => {
               key={index}
               placeholder={content.title}
               className={
-                "placeholder-white text-white rounded-md pl-2 h-12 bg-transparent border border-secondary3 focus:border-red-500"
+                "placeholder-white text-white rounded-md pl-2 h-14 bg-transparent border border-secondary3 outline-secondary3 outline-0.5"
               }
               type={content.type}
             />

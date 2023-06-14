@@ -62,8 +62,8 @@ const content = (styles) => (
 
 const SectionOne = () => {
   return (
-    <div className=" relative flex flex-col bg-primary text-white px-5 pb-20 space-y-8 pt-44 md:px-10 xl:flex-row xl:space-y-0 ">
-      <div className="absolute h-full w-2/3 bottom-0 blur-8xl right-0 xl:top-0">
+   <div className="bg-primary w-full relative">
+    <div  className="absolute border h-full w-2/3 bottom-0 blur-8xl right-0 xl:top-0">
         <Image
           src="images/blur.svg"
           alt="star icon"
@@ -74,16 +74,16 @@ const SectionOne = () => {
           className="h-full w-full"
         />
       </div>
+    <div data-aos="fade-up" className=" flex flex-col text-white px-5 pb-20 space-y-8 pt-14 md:pt-40 md:px-10 xl:flex-row xl:space-y-0 ">
+      
       {/* <div className="absolute bg-pink-600 blur-8xl h-1/2 w-1/2 "></div> */}
 
-      {/* <div className="fixed top-0 right-5 text-xs">
-        Site developed by opulencedeveloper
-      </div> */}
-      <div className="flex-col justify-center space-y-3 w-full md:space-y-8 pt-0 xl:pt-5 xl:w-1/2 ">
+      
+      <div className="flex-col justify-center w-full space-y-7 pt-0 xl:pt-5 xl:w-1/2 ">
         <h2 className="text-3xl font-semibold md:text-6xl">
           Improve your social media engagements
         </h2>
-        <h3 className="text-lg font-light md:text-xl">
+        <h3 className="text-base font-light md:text-xl">
           Welcome to Links, you would be able to monitor and track all your
           social media accounts and progress. You could also block unsolicited
           messages from different individuals. Is that what you would like?
@@ -92,12 +92,12 @@ const SectionOne = () => {
 
         <button
           // onClick={handleWhatsAppClick}
-          className="text-white text-base font-semibold bg-primaryshade1 px-8 py-4 rounded-md w-max md:text-lg md:py-5"
+          className="text-white text-sm font-semibold bg-primaryshade1 px-4 py-3 rounded-lg w-max md:text-lg md:px-7 md:py-4"
         >
           Start your free trial
         </button>
 
-        {content("w-full py-14 px-5 justify-center md:px-40 xl:hidden")}
+        {content("w-full py-5 px-5 justify-center md:py-14 md:px-40 xl:hidden")}
 
         <div className="flex space-x-1">
           {Array(5).fill(
@@ -138,7 +138,7 @@ const SectionOne = () => {
       </div>
 
       {content("w-1/2 hidden justify-end xl:flex")}
-    </div>
+    </div> </div> 
   );
 };
 
