@@ -52,6 +52,7 @@ const SectionThree = () => {
           <div className="w-full lg:w-1/2">
             <Image
               src="/images/hero-image2.svg"
+              alt="hero image"
               priority
               loading="eager"
               height={1225.89}

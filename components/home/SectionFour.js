@@ -15,7 +15,9 @@ const SectionFour = () => {
       <div className="flex flex-col px-8 w-full space-x-0 space-y-2 md:w-max md:flex-row md:space-x-2 md:space-y-0">
         {inputValues.map((content, index) => {
           return index === 2 ? (
-            <button className="bg-white text-center rounded-md h-14 text-black px-10 text-semibold">
+            <button 
+            key={index}
+            className="bg-white text-center rounded-md h-14 text-black px-10 text-semibold">
               {content.title}
             </button>
           ) : (
@@ -33,6 +35,7 @@ const SectionFour = () => {
       <Image
         priority
         loading="eager"
+        alt="half"
         height={217}
         width={266}
         className="h-auto w-auto absolute -top-10 left-0"
@@ -44,6 +47,7 @@ const SectionFour = () => {
         loading="eager"
         height={217}
         width={266}
+        alt="half"
         className="h-auto w-auto absolute bottom-0 right-0"
         src="/images/half-2.svg"
       />
